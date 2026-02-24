@@ -1,57 +1,37 @@
-# 📚 Interactive Course Table – Day 2 Assignment https://intractive-course-table.netlify.app/
+📚 Interactive Course Table – Day 2 
+Assignment https://intractive-course-table.netlify.app/
 
-This project is an interactive course catalog built using:
+Library / Tool: DataTables.js
+Objective: Display a dynamic table of courses with search, sort, and pagination.
 
-- HTML5
-- Tailwind CSS
-- jQuery
-- DataTables.js
+📝 Requirements
 
-## 🚀 Features
+HTML, CSS, JavaScript
 
-- 🔍 Live Search Functionality
-- ↕️ Column Sorting
-- 📄 Pagination
-- 📱 Fully Responsive Design
-- 🎨 Category Badges with Dynamic Styling
-- 👨‍🏫 Instructor Initial Avatar Auto Generation
+DataTables.js
 
-## 📂 Technologies Used
+Optional: TailwindCSS or Bootstrap for styling
 
-- HTML
-- Tailwind CSS
-- JavaScript
-- jQuery
-- DataTables.js
+🚀 Steps
 
-## 📊 Functionality
+Setup HTML page with a container for the course table.
 
-- Courses are rendered dynamically using JavaScript.
-- DataTables.js handles:
-  - Searching
-  - Sorting
-  - Pagination
-  - Responsive table layout
+Define an array of courses with fields: name, instructor, category, duration.
 
-## 🛠 How It Works
+Render the table dynamically using JavaScript.
 
-1. Course data is stored in a JavaScript array.
-2. Table rows are generated dynamically.
-3. DataTables plugin enhances the table with advanced features.
+Add search, sort, pagination functionality via DataTables.js.
 
-## 📱 Responsive Design
+Optional: Apply styling with TailwindCSS or Bootstrap for a professional look.
 
-The layout adapts to:
-- Desktop
-- Tablet
-- Mobile devices
+🎯 Expected Output
 
-## 📌 Author
+Interactive table with search, sorting, and pagination.
 
-Saqlain Yousuf  
-Software Engineering Student  
-Frontend & Web Development Enthusiast
+Fully responsive design.
 
----
+Professional and clean styling.
 
-⭐ If you like this project, feel free to star the repository!
+💡 Pro Tip
+
+Keep data and rendering logic separate for better maintainability and scalability.

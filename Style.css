@@ -1,0 +1,80 @@
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        /* DataTables Custom Styling */
+        .dataTables_wrapper .dataTables_filter input {
+            border: 2px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        .dataTables_wrapper .dataTables_filter input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+        
+        .dataTables_wrapper .dataTables_length select {
+            border: 2px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 0.5rem 2rem 0.5rem 0.75rem;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        table.dataTable thead th {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            padding: 1rem 0.75rem;
+            border: none;
+        }
+        
+        table.dataTable tbody td {
+            padding: 1rem 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        table.dataTable tbody tr:hover {
+            background-color: #f9fafb;
+        }
+        
+        .dataTables_paginate .paginate_button {
+            border: none !important;
+            background: #f3f4f6 !important;
+            color: #374151 !important;
+            padding: 0.5rem 1rem !important;
+            margin: 0 0.25rem !important;
+            border-radius: 0.5rem !important;
+            font-weight: 500 !important;
+            transition: all 0.3s !important;
+        }
+        
+        .dataTables_paginate .paginate_button:hover {
+            background: #e5e7eb !important;
+        }
+        
+        .dataTables_paginate .paginate_button.current {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            color: white !important;
+        }
+        
+        .dataTables_info {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        
+        /* Category Badge Colors */
+        .badge-programming { background: #dbeafe; color: #1e40af; }
+        .badge-design { background: #fce7f3; color: #be185d; }
+        .badge-business { background: #d1fae5; color: #065f46; }
+        .badge-marketing { background: #fef3c7; color: #92400e; }
+ 

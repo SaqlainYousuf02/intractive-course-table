@@ -1,5 +1,5 @@
 📚 Interactive Course Table – Day 2 
-Assignment https://intractive-course-table.netlify.app/
+Assignment https://intractivecoursetab.netlify.app/
 
 Library / Tool: DataTables.js
 Objective: Display a dynamic table of courses with search, sort, and pagination.
